@@ -1,0 +1,43 @@
+body {
+    display:flex;
+    flex-direction:column;
+    line-height:2;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    color:darkslategray;
+}
+
+header {
+    display:flex;
+    height: 100px;
+    width: 100%;
+    background-color: gray; 
+}
+
+header h1 {
+    height: 75px;
+    width: 375px;
+    background-color: #612cab;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0 0 0 30px;
+    margin-top: 10px;
+    border-radius: 0 5px 5px 0;
+}
+
+header nav {
+    display:inline;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 250px 15px 0 500px;
+}
+
+header a {
+    color:white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    padding: 0 20px 20px 20px;
+
+}
