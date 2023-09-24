@@ -41,3 +41,26 @@ header a {
     padding: 0 20px 20px 20px;
 
 }
+
+.subtitle {
+    display: flex;
+    background-image: url(../images/pexels-dana-tentis-370799-2.jpg);
+    height: 200px;
+    width: 100%;
+}
+
+.subtitle h2 {
+    position: absolute;
+    right: 0px;
+    height: 75px;
+    width: 500px;
+    justify-content: flex-end;
+    background-color: #612cab;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: end;
+    border-radius: 5px 0 0 5px;
+    padding: 10px 10px;
+    margin: 60px 0;
+}
