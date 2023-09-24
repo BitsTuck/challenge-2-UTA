@@ -1,3 +1,7 @@
+:root {
+    --purple: #612cab;
+}
+
 body {
     display:flex;
     flex-direction:column;
@@ -17,7 +21,7 @@ header {
 header h1 {
     height: 75px;
     width: 375px;
-    background-color: #612cab;
+    background-color: var (--purple);
     color: white;
     font-size: 36px;
     font-weight: bold;
@@ -55,7 +59,7 @@ header a {
     height: 75px;
     width: 500px;
     justify-content: flex-end;
-    background-color: #612cab;
+    background-color: var(--purple);
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -63,4 +67,135 @@ header a {
     border-radius: 5px 0 0 5px;
     padding: 10px 10px;
     margin: 60px 0;
+}
+
+.nav-aside {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    width: 15%;
+}
+
+.small {
+    height: 300px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px;
+    border-right: 5px solid var(--purple);
+    margin-top: 15px;
+}
+
+.big {
+    height: 750px;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px;
+    border-right: 5px solid var(--purple);
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    position: relative;
+    top: -1350px;
+    left: 300px;
+    width: 100%;
+}
+
+.about-me {
+    font-size: 24px;
+    line-height: 2;
+    padding: 0 300px 0 0; 
+    margin-top: 20px;
+
+}
+
+.card-big {
+    background-image: url(../images/pexels-pixabay-220072.jpg);
+    position: relative;
+    top:150px;
+    height: 400px;
+    border: 10px solid deeppink;
+
+}
+
+.card-big h2 {
+    position: absolute;
+    left: 0px;
+    height: 75px;
+    width: 300px;
+    justify-content: flex-end;
+    background-color: deeppink;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: end;
+    border-radius: 0 5px 5px 0;
+    padding: 0px 10px 3px 40px;
+    margin: 250px 0;
+}
+
+.card-big h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-top-left {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+    background-image: url(../images/pexels-pixabay-220072.jpg);
+    height: 150px;
+    width: 300px;
+    border: 10px solid deeppink;
+}
+
+.card-top-left h2 {
+    position: absolute;
+    left: 0px;
+    bottom: -200px;
+    height: 30px;
+    width: 150px;
+    justify-content: flex-end;
+    background-color: deeppink;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: end;
+    border-radius: 0 5px 5px 0;
+    padding: 0px 10px 3px 40px;
+    margin: 250px 0;
+}
+
+.card-top-left h3 {
+    position: absolute;
+    left: 0px;
+    bottom: -230px;
+    height: 30px;
+    width: 100px;
+    justify-content: flex-end;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: end;
+    padding: 0px 10px 3px 40px;
+    margin: 250px 0;
+
+}
+
+
+
+
+footer {
+    text-align: center;
+    margin: -350px;
 }
