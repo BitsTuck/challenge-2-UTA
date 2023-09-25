@@ -9,6 +9,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     color:darkslategray;
+    width: 100%;
 }
 
 header {
@@ -74,10 +75,10 @@ header a {
     flex-direction: column;
     position: relative;
     left: 0;
-    width: 15%;
+    width: 12%;
 }
 
-.small {
+.small-nav-aside{
     height: 300px;
     font-size: 32px;
     font-weight: bold;
@@ -86,8 +87,8 @@ header a {
     margin-top: 15px;
 }
 
-.big {
-    height: 750px;
+.big-nav-aside {
+    height: 900px;
     font-size: 32px;
     font-weight: bold;
     padding: 15px;
@@ -95,9 +96,28 @@ header a {
     margin-top: 15px;
 }
 
-.container {
+.container-single {
     display: flex;
-    flex-direction: column;
+    flex; 1 0 60%;
+    flex-wrap: nowrap;
+    justify-content:flex-end;
+    position: relative;
+    top: -1350px;
+    left: 300px;
+    width: 100%;
+}
+
+.about-me p {
+    font-size: 24px;
+    font-weight:bold;
+    text-align: left;
+    width: 100%;
+}
+
+
+.container-single {
+    display: flex;
+    flex; 1 0 75%;
     flex-wrap: nowrap;
     justify-content:flex-end;
     position: relative;
@@ -191,9 +211,6 @@ header a {
     margin: 250px 0;
 
 }
-
-
-
 
 footer {
     text-align: center;
