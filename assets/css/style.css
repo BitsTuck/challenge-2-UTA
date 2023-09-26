@@ -48,7 +48,7 @@ header a {
     background-image: url(../images/pexels-pixabay-220072.jpg);
     height: 200px;
     width: 100%;
-
+    
 }
 
 .subtitle h2 {
@@ -66,6 +66,12 @@ header a {
     padding: 10px 10px;
     margin: 60px 0;
     line-height: 1.5;
+}
+
+img {
+    height:200px;
+    width;200px;
+    padding: 0 0 0 30px;
 }
 
 .nav-aside {
@@ -216,6 +222,8 @@ header a {
 footer {
     text-align: center;
 }
+
+/* Below is all of the code I wrote/tried to work with prior to my tutoring session with Dru Sanchez. Prior to our conversation about flexbox best practices, I was trying to manually place all of the smaller boxes on the page, which was not ideal. Saved here for posterity and to remind myself not to overthink it in the future. */
 
 /* .container-single {  */
     display: flex;
