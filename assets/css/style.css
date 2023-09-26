@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    display:flex;
+    display:flex; 
     height: 100px;
     width: 100%;
     background-color: gray; 
@@ -30,8 +30,6 @@ header h1 {
 
 header nav {
     display:inline;
-    flex-direction: row;
-    flex-wrap:nowrap;
     font-size: 16px;
     margin: 250px 15px 0 500px;
 }
@@ -50,6 +48,7 @@ header a {
     background-image: url(../images/pexels-pixabay-220072.jpg);
     height: 200px;
     width: 100%;
+
 }
 
 .subtitle h2 {
@@ -66,6 +65,7 @@ header a {
     border-radius: 5px 0 0 5px;
     padding: 10px 10px;
     margin: 60px 0;
+    line-height: 1.5;
 }
 
 .nav-aside {
@@ -122,14 +122,11 @@ header a {
 
 }
 
-.theodore {
-}
-
-.simon {
+.main {
     display:flex;
 }
 
-.alvin {
+.card-boxes {
     display:flex;
     position: relative;
     top: 70px;
@@ -139,7 +136,7 @@ header a {
     height: 400px;
 }
 
-.dewey {
+.contact {
     display: flex;
     justify-content:space-around;
     position: relative;
@@ -212,9 +209,10 @@ header a {
 
 }
 
-.contact {
+.contact-content {
     margin: 0 0 50px 0
 }
+
 footer {
     text-align: center;
 }
