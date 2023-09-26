@@ -2,6 +2,8 @@
 
 # Challenge #2 Portfolio
 
+[Elizabeth Tucker Portfolio.webm](https://github.com/BitsTuck/challenge-2-UTA/assets/144712161/d9439066-2084-48b0-b740-54d9cb246a71)
+
 Version 1
 Deployed 27 September 2023
 
