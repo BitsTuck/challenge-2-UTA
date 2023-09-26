@@ -4,6 +4,8 @@
 
 <img width="1468" alt="Screenshot 2023-09-26 at 9 30 27 AM" src="https://github.com/BitsTuck/challenge-2-UTA/assets/144712161/4cb0e111-a5e5-4fda-b924-711364b8abd4">
 
+https://bitstuck.github.io/challenge-2-UTA/
+
 
 Version 1
 Deployed 27 September 2023
