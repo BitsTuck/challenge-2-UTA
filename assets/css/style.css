@@ -168,11 +168,12 @@ img {
     justify-content: flex-end;
     background-color: deeppink;
     color: white;
-    font-size: 36px;
+    font-size: 2em;
+    line-height: 1;
     font-weight: bold;
     justify-content: end;
     border-radius: 0 5px 5px 0;
-    padding: 0px 10px 3px 40px;
+    padding: 2px 10px 2px 40px;
     margin: 250px 0;
 }
 
