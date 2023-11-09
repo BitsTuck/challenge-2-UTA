@@ -226,7 +226,7 @@ footer {
 
 /* Below is all of the code I wrote/tried to work with prior to my tutoring session with Dru Sanchez. Prior to our conversation about flexbox best practices, I was trying to manually place all of the smaller boxes on the page, which was not ideal. Saved here for posterity and to remind myself not to overthink it in the future. */
 
-/* .container-single {  */
+/* .container-single { 
     display: flex;
     flex: 1 0 60%;
     flex-wrap: nowrap;
@@ -248,7 +248,7 @@ footer {
     height: 150px;
     width: 300px;
     border: 10px solid deeppink;
-}
+/* } */
 
 /* .card-top-left h2 { */
     position: absolute;
@@ -265,7 +265,4 @@ footer {
     border-radius: 0 5px 5px 0;
     padding: 0px 10px 3px 40px;
     margin: 250px 0;
-}
-
-
-
+/* } */ */
